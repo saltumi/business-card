@@ -1,7 +1,9 @@
+import mySelf from '../assets/mySelf.png';
+
 export default function Info() {
     return (
         <>
-        <img src="/src/assets/mySelf.png" alt="my photo" className="my-image" />
+        <img src={mySelf} alt="my photo" className="my-image" />
         <section>
             <header className="details">
                 <h2 className="name">Mmakgwale Lebogo</h2>
