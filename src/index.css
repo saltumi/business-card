@@ -1,0 +1,118 @@
+body {
+  background: #23252C;
+  font-family: "Inter", sans-serif;
+}
+
+.card-content {
+  width: 80%;
+  margin: 24px auto;
+  background: #1A1B21;
+}
+
+.my-image3 {
+  /* width: 16.3rem; */
+  /* height: 19.81rem; */
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+ img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  border: 1px;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+}
+
+.name {
+  size: 1.57rem;
+  font-weight: 700;
+  margin: 4px;
+}
+
+.name,.interest-container, .about-container, .website {
+  color: #FFFFFF;
+}
+
+.role {
+  color: #F3BF99;
+  margin: 4px;
+  size: 0.8rem;
+}
+
+.website {
+  margin: 6px;
+  size: 0.64rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-btn, .linkedin-btn {
+  padding: 9px 20px 9px 22px;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px;
+}
+
+.linkedin-btn {
+  background: #5093E2;
+  margin-left: 8px;
+  color: #FFFFFF;
+}
+
+.email-btn {
+  background: #FFFFFF;
+  margin-right: 18px;
+  color: #374151;
+}
+
+.fa-envelope, .fa-linkedin {
+  margin-right: 8px;
+}
+
+.about-info, .interest-info {
+  font-size: 0.64rem;
+}
+
+.about, .interests {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.interest-container, 
+.about-container {
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+}
+
+footer {
+  background: #161619;
+  border-radius: 10px;
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.fa-github, 
+.fa-facebook-f,
+.fa-x-twitter,
+.fa-instagram {
+  background: #918E9B;
+  padding: 0.25rem;
+  border-radius: 3px;
+}
